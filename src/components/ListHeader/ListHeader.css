@@ -1,0 +1,39 @@
+.list-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    align-items: center;
+    width: 30rem;
+    height: 2.5rem;
+    background-color: #000000;
+    border: solid 2px #86e07a;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+
+.list-header-arrow {
+    color: azure;
+    margin: auto 0.5rem;
+    width: auto;
+}
+
+.list-header-arrow-up::after {
+    color: azure;
+    content: ' \21D1';
+}
+
+.list-header-arrow-down::after {
+    color: azure;
+    content: ' \21D3';
+}
+
+.list-header-arrow:hover {
+    cursor: pointer;
+}
+
+.list-header-input {
+    border: solid 2px #e0de7a;
+    border-radius: 5px;
+    width: 26rem;
+    height: 1.5rem;
+}
